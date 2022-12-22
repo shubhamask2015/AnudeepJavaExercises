@@ -1,4 +1,8 @@
-
+/*
+ * 3) create a custom exception with an array of student id,
+ * student name and student average and throw the 
+ * exception if any student got below 45
+*/
 class MyException extends Exception{
     MyException(){
         super("Marks less than 45!!");
